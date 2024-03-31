@@ -1,0 +1,59 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-black-color: #000000;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --inverse-light-text-color: rgba(255, 255, 255, 0.6);
+  --lightest-gray-color: #f5f4fa;
+  --gray-color: #afb1b8;
+}
+
+body {
+  background-color: var(--lightest-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+/* buttons */
+.button.primary {
+  background-color: #2196f3;
+  color: var(--primary-white-color);
+}
+
+/* site navigation */
+.logo {
+  color: var(--primary-black-color);
+}
+
+.logo-accent-color {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* hero */
+
+/* section */
+
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+/* features */
+.futures-title-list {
+  color: var(--secondary-text-color);
+}
