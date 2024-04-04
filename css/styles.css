@@ -119,13 +119,16 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.benefits .subtitle {
+
+/* benefits */
+
+.benefits-title {
+  font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 
-/* benefits */
 .benefits .content {
   line-height: 1.71;
   letter-spacing: 0.03em;
